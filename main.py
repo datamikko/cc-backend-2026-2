@@ -8,7 +8,7 @@ with open("sentiment_model_v1.pkl", "rb") as file:
 
 @app.route("/")
 def health():
-    return {"message": "alive again"}
+    return {"message": "alive again even more"}
 
 @app.route("/api", methods=["POST"])
 def sentiment_api():
